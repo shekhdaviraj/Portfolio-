@@ -1,0 +1,45 @@
+ *
+ {
+	margin: 0;
+	padding: 0;
+} 
+.nav{
+	background: #000000;
+	color: #6cff07;
+	padding: 20px;
+	font-family: fantasy;
+}
+label.logoji{
+  color:  #6cff07;
+  font-size: 33px;
+  line-height: 0px;
+  padding: 0 100px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+ .menu-right{
+	text-align: right;
+}
+ul li{
+	display:inline-block;
+	margin: 20px;
+	list-style: none;
+
+}
+ span{
+ 	margin: 0 20px;
+ 	font-size: 28px;
+ 	cursor: pointer;
+ 	display: none;
+ }
+ @media only screen and (max-width: 980px){
+ 	span{
+ 		display: block;
+ 	}
+    ul li{
+    	display: block;
+    }
+    ul{
+    	display: none;
+    }
+ }
