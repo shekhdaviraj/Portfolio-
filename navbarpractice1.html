@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>navbar p1</title>
+<link rel="stylesheet" href="stylepractice1.css">
+</head>
+<body>
+	<div class="nav">
+		<label class="logoji">Viraj Shekhda</label>
+		    <div class="menu-right">
+		    	<span onclick="yekamkarega()">&#9776;</span>
+		        <ul id="masala">
+		        <li>HOME</li>
+		        <li>SERVICE</li>
+		        <li>BLogs</li>
+		        <li>ABOUT</li>
+		        </ul>
+		    </div>
+
+	</div>
+	<script>
+		function yekamkarega() {
+			var x =document.getElementById('masala');
+
+			if (x.style.display == "block") {
+				x.style.display = "none";
+
+			} else {
+				x.style.display ="block";
+			}
+		}
+	</script>
+</body>
+
+</html>     
